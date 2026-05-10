@@ -13,7 +13,6 @@ minecraft {
     mappings channel: 'official', version: '1.20.1'
 }
 
-<<<<<<< HEAD
 sourceSets {
     main {
         resources {
@@ -22,8 +21,6 @@ sourceSets {
     }
 }
 
-=======
->>>>>>> 2a03ac372e1c58ed12e609897ff386305641dcac
 dependencies {
     minecraft 'net.minecraftforge:forge:1.20.1-47.4.10'
 }
