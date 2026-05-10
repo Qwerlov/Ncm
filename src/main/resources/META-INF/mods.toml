@@ -1,0 +1,11 @@
+modLoader = "javafml"
+loaderVersion = "[46,)"
+license = "All rights reserved"
+
+[[mods]]
+modId = "nuclearcraft"
+version = "1.0.0"
+displayName = "NuclearCraft"
+description = "Nuclear engineering mod for Minecraft"
+config = "nuclearcraft-server.toml"
+clientConfig = "nuclearcraft-client.toml"
