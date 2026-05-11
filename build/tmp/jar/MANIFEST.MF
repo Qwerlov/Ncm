@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Specification-Title: ncm
+Specification-Vendor: Kverlov
+Specification-Version: 1
+Implementation-Title: mcn-project
+Implementation-Version: 1.2.9
+Implementation-Vendor: Kverlov
+Implementation-Timestamp: 2026-05-11T08:59:10+0000
+
