@@ -1,0 +1,12 @@
+{
+  "values": [
+    "minecraft:gold_block",
+    "minecraft:copper_block",
+    "minecraft:iron_door",
+    "minecraft:iron_trapdoor",
+    "minecraft:anvil",
+    "minecraft:cauldron",
+    "minecraft:hopper",
+    "minecraft:chain"
+  ]
+}

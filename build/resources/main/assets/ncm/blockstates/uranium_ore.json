@@ -1,0 +1,5 @@
+{
+    "variants": {
+        "": { "model": "ncm:block/uranium_ore" }
+    }
+}

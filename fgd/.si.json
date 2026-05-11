@@ -1,0 +1,14 @@
+{
+  "plugin": "org.smartide.plugin.java",
+  "run": "java Main.java",
+  "intelligence": {
+    ".json": {
+      "enabled": true,
+      "run": "vscode-json-language-server --stdio"
+    },
+    ".java": {
+      "enabled": false,
+      "run": "jdtls"
+    }
+  }
+}

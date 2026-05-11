@@ -1,0 +1,99 @@
+Initialized native services in: /data/data/com.termux/files/home/.gradle/native
+Initialized jansi services in: /data/data/com.termux/files/home/.gradle/native
+Received JVM installation metadata from '/data/data/com.termux/files/usr/lib/jvm/java-17-openjdk': {JAVA_HOME=/data/data/com.termux/files/usr/lib/jvm/java-17-openjdk, JAVA_VERSION=17.0.19, JAVA_VENDOR=Termux, RUNTIME_NAME=OpenJDK Runtime Environment, RUNTIME_VERSION=17.0.19+0, VM_NAME=OpenJDK 64-Bit Server VM, VM_VERSION=17.0.19+0, VM_VENDOR=Termux, OS_ARCH=aarch64}
+Checking if the launcher JVM can be re-used for build. To be re-used, the launcher JVM needs to match the parameters required for the build process: --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.lang.invoke=ALL-UNNAMED --add-opens=java.prefs/java.util.prefs=ALL-UNNAMED --add-opens=java.base/java.nio.charset=ALL-UNNAMED --add-opens=java.base/java.net=ALL-UNNAMED --add-opens=java.base/java.util.concurrent.atomic=ALL-UNNAMED -Xmx3G -Dfile.encoding=UTF-8 -Duser.country -Duser.language=en -Duser.variant
+To honour the JVM settings for this build a single-use Daemon process will be forked. See https://docs.gradle.org/8.1.1/userguide/gradle_daemon.html#sec:disabling_the_daemon.
+Starting process 'Gradle build daemon'. Working directory: /data/data/com.termux/files/home/.gradle/daemon/8.1.1 Command: /data/data/com.termux/files/usr/lib/jvm/java-17-openjdk/bin/java --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.lang.invoke=ALL-UNNAMED --add-opens=java.prefs/java.util.prefs=ALL-UNNAMED --add-opens=java.base/java.nio.charset=ALL-UNNAMED --add-opens=java.base/java.net=ALL-UNNAMED --add-opens=java.base/java.util.concurrent.atomic=ALL-UNNAMED -Xmx3G -Dfile.encoding=UTF-8 -Duser.country -Duser.language=en -Duser.variant -cp /data/data/com.termux/files/home/.gradle/wrapper/dists/gradle-8.1.1-bin/99jqdkz0zm0r14eocl2t87xca/gradle-8.1.1/lib/gradle-launcher-8.1.1.jar -javaagent:/data/data/com.termux/files/home/.gradle/wrapper/dists/gradle-8.1.1-bin/99jqdkz0zm0r14eocl2t87xca/gradle-8.1.1/lib/agents/gradle-instrumentation-agent-8.1.1.jar org.gradle.launcher.daemon.bootstrap.GradleDaemon 8.1.1
+Successfully started process 'Gradle build daemon'
+An attempt to start the daemon took 5.143 secs.
+The client will now receive all logging from the daemon (pid: 18254). The daemon log file: /data/data/com.termux/files/home/.gradle/daemon/8.1.1/daemon-18254.out.log
+Daemon will be stopped at the end of the build 
+Using 8 worker leases.
+Received JVM installation metadata from '/data/data/com.termux/files/usr/lib/jvm/java-17-openjdk': {JAVA_HOME=/data/data/com.termux/files/usr/lib/jvm/java-17-openjdk, JAVA_VERSION=17.0.19, JAVA_VENDOR=Termux, RUNTIME_NAME=OpenJDK Runtime Environment, RUNTIME_VERSION=17.0.19+0, VM_NAME=OpenJDK 64-Bit Server VM, VM_VERSION=17.0.19+0, VM_VENDOR=Termux, OS_ARCH=aarch64}
+Watching the file system is configured to be enabled if available
+File system watching is inactive
+Starting Build
+The configuration detachedConfiguration1 is both resolvable and consumable. This is considered a legacy configuration and it will eventually only be possible to be one of these.
+The configuration detachedConfiguration1 is both consumable and declarable. This combination is incorrect, only one of these flags should be set.
+The configuration detachedConfiguration1 is both resolvable and consumable. This is considered a legacy configuration and it will eventually only be possible to be one of these.
+The configuration detachedConfiguration1 is both consumable and declarable. This combination is incorrect, only one of these flags should be set.
+The configuration classpath is both resolvable and consumable. This is considered a legacy configuration and it will eventually only be possible to be one of these.
+The configuration classpath is both consumable and declarable. This combination is incorrect, only one of these flags should be set.
+The configuration classpath is both resolvable and consumable. This is considered a legacy configuration and it will eventually only be possible to be one of these.
+The configuration classpath is both consumable and declarable. This combination is incorrect, only one of these flags should be set.
+Settings evaluated using settings file '/data/data/com.termux/files/home/mcn-project/settings.gradle'.
+Projects loaded. Root project using build file '/data/data/com.termux/files/home/mcn-project/build.gradle'.
+Included projects: [root project 'mcn-project']
+
+> Configure project :
+Evaluating root project 'mcn-project' using build file '/data/data/com.termux/files/home/mcn-project/build.gradle'.
+The configuration detachedConfiguration1 is both resolvable and consumable. This is considered a legacy configuration and it will eventually only be possible to be one of these.
+The configuration detachedConfiguration1 is both consumable and declarable. This combination is incorrect, only one of these flags should be set.
+The configuration detachedConfiguration1 is both resolvable and consumable. This is considered a legacy configuration and it will eventually only be possible to be one of these.
+The configuration detachedConfiguration1 is both consumable and declarable. This combination is incorrect, only one of these flags should be set.
+The configuration :classpath is both resolvable and consumable. This is considered a legacy configuration and it will eventually only be possible to be one of these.
+The configuration :classpath is both consumable and declarable. This combination is incorrect, only one of these flags should be set.
+The configuration :classpath is both resolvable and consumable. This is considered a legacy configuration and it will eventually only be possible to be one of these.
+The configuration :classpath is both consumable and declarable. This combination is incorrect, only one of these flags should be set.
+Java: 17.0.19, JVM: 17.0.19+0 (Termux), Arch: aarch64
+Downloading net.minecraftforge:forge:1.20.1-47.4.10:userdev
+Downloading net.minecraftforge:forge:1.20.1-47.4.10:universal@jar
+Downloading net.minecraftforge:forge:1.20.1-47.4.10:sources@jar
+Downloading de.oceanlabs.mcp:mcp_config:1.20.1-20230612.114412@zip
+The configuration :mainSourceElements is both consumable and declarable. This combination is incorrect, only one of these flags should be set.
+Downloading de.oceanlabs.mcp:mcp_config:1.20.1@zip
+Downloading de.oceanlabs.mcp:mcp_config:1.20.1@zip
+Creating reobfuscation task for JarJar task: jarJar
+All projects evaluated.
+Task name matched 'build'
+Selected primary task 'build' from project :
+Downloading net.minecraftforge:renamer:2.0.4:all
+Downloading net.minecraftforge:renamer:2.0.4:all
+Tasks to be executed: [task ':compileJava', task ':processResources', task ':classes', task ':jar', task ':downloadMcpConfig', task ':extractSrg', task ':createMcpToSrg', task ':reobfJar', task ':jarJar', task ':reobfJarJar', task ':assemble', task ':compileTestJava', task ':processTestResources', task ':testClasses', task ':test', task ':check', task ':build']
+Tasks that were excluded: []
+Resolve mutations for :compileJava (Thread[Execution worker,5,main]) started.
+:compileJava (Thread[included builds,5,main]) started.
+
+> Task :compileJava
+Downloading net.minecraft:mappings_official:1.20.1@zip
+Downloading net.minecraft:client:1.20.1:mappings@txt
+Downloading net.minecraft:server:1.20.1:mappings@txt
+Downloading de.oceanlabs.mcp:mcp_config:1.20.1@zip
+Downloading de.oceanlabs.mcp:mcp_config:1.20.1@zip
+Downloading net.minecraft:mappings_official:1.20.1@zip
+Caching disabled for task ':compileJava' because:
+  Build cache is disabled
+Task ':compileJava' is not up-to-date because:
+  Task has failed previously.
+The input changes require a full rebuild for incremental task ':compileJava'.
+Full recompilation is required because no incremental change information is available. This is usually caused by clean builds or changing compiler arguments.
+Compiling with toolchain '/data/data/com.termux/files/usr/lib/jvm/java-17-openjdk'.
+Compiling with JDK Java compiler API.
+/data/data/com.termux/files/home/mcn-project/src/main/java/com/kverlov/mcn/core/RegistryBus.java:8: error: class, interface, enum, or record expected
+}
+^
+/data/data/com.termux/files/home/mcn-project/src/main/java/com/kverlov/mcn/core/ModSetup.java:6: error: class, interface, enum, or record expected
+}
+^
+/data/data/com.termux/files/home/mcn-project/src/main/java/com/kverlov/mcn/McnMod.java:20: error: class, interface, enum, or record expected
+	            }
+	            ^
+3 errors
+
+> Task :compileJava FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileJava'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --debug option to get more log output.
+> Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 46s
+1 actionable task: 1 executed
