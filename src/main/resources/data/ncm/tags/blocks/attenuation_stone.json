@@ -1,16 +1,16 @@
 {
+  "replace": false,
   "values": [
     "minecraft:stone",
     "minecraft:granite",
     "minecraft:diorite",
     "minecraft:andesite",
-    "minecraft:deepslate",
     "minecraft:cobblestone",
-    "minecraft:sandstone",
-    "minecraft:obsidian",
-    "minecraft:netherrack",
-    "minecraft:blackstone",
-    "minecraft:basalt",
-    "minecraft:end_stone"
+    "minecraft:stone_bricks",
+    "minecraft:mossy_cobblestone",
+    "minecraft:mossy_stone_bricks",
+    "minecraft:cracked_stone_bricks",
+    "minecraft:chiseled_stone_bricks",
+    "minecraft:smooth_stone"
   ]
 }
